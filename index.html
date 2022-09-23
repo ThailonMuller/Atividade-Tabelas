@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>        
+        table{
+            width: 90%;
+            height: 90%;
+            border-collapse: collapse;
+            text-align: center;            
+        }
+        table, td{
+            border: 1px solid black;
+        }
+        body{
+            width: 100vw;/* View Width */
+            height: 96vh;/* View Height -- para usar 100vh resetar o html com asteriscos*/
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr style="height: 15%;">
+            <td colspan="2">TOPO</td>
+        </tr>
+        <tr>
+            <td style="width: 25%;">MENU</td>
+            <td>CONTEÚDO</td>
+        </tr>
+        <tr style="height: 15%;">
+            <td colspan="2">RODAPÉ</td>
+        </tr>
+    </table>
+</body>
+</html>
